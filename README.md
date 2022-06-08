@@ -94,7 +94,7 @@ Simple, right?  Yeah...  I'll walk you through it, it's actually not that bad.
 
 13. Install the C/C++ extension pack and Remote - WSL from the VS Code Extensions panel in the Aline WSL window.
 
-14. Enable CMake Tools and reconfigure.  Select GCC [version] arm-none-eabi installed inside Alpine.  Probably in /usr/bin.
+14. Enable CMake Tools (*Note* You may need to right-click and Enable Workspace) and reconfigure.  Select GCC[version] arm-none-eabi installed inside Alpine.  Probably in /usr/bin.
 
 15. **OPTIONAL** Edit CMakeLists.txt and rename anything with "template" in it to your project name.
 
