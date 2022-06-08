@@ -92,7 +92,7 @@ Simple, right?  Yeah...  I'll walk you through it, it's actually not that bad.
     
 12. In the new window, File->Open Folder, select your project folder, and trust it if prompted.
 
-13. Install the C/C++ extension pack and Remote - WSL from the VS Code Extensions panel in the Aline WSL window.
+13. Install the C/C++ extension pack and Remote - WSL from the VS Code Extensions panel in the Alpine WSL window.
 
 14. Enable CMake Tools (*Note* You may need to right-click and Enable Workspace) and reconfigure.  Select GCC[version] arm-none-eabi installed inside Alpine.  Probably in /usr/bin.
 
