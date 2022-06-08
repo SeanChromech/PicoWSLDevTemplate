@@ -72,7 +72,7 @@ Simple, right?  Yeah...  I'll walk you through it, it's actually not that bad.
 8.  **OPTIONAL** Generate SSH Key and set up Git.
 
     1. `exit` to drop out of the admin shell, if you haven't already.
-    2. `ssh-keygen -t ed25519 -C "your_email@example.com"` and follow prompts.
+    2. `ssh-keygen -t ed25519 -C "[your_email@example.com]"` and follow prompts.
     3. `git config --global user.email "[your_email@example.com]"`
     4. `git config --global user.name "[Your Name]"`
     5. `cat .ssh/id_ed25519.pub` and copy it to GitHub.
