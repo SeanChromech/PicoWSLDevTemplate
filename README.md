@@ -82,10 +82,9 @@ Simple, right?  Yeah...  I'll walk you through it, it's actually not that bad.
    1.  `git clone git@github.com:SeanChromech/PicoWSLDevTemplate.git`
    2.  `mv PicoWSLDevTemplate [Clever Project Name]`
    3.  `cd [Clever Project Name]`
-   4.  **OPTIONAL** `rm -rf .git` then `git init` to strip my git info and start your own.
-   5.  `git submodule update --init` to grab the SDK.
-   6.  `cd pico-sdk`
-   7.  `git submodule update --init` to grab tinyusb.  *Note: Don't use --recursive, it will grab a lot of stuff from tinyusb that isn't needed.*
+   4.  `git submodule update --init` to grab the SDK.
+   5.  `cd pico-sdk`
+   6.  `git submodule update --init` to grab tinyusb.  *Note: Don't use --recursive, it will grab a lot of stuff from tinyusb that isn't needed.*
 
 10. On Windows, install VS Code from https://code.visualstudio.com/Download.
     
