@@ -1,6 +1,9 @@
 # PicoWSLDevTemplate
 Go from zero to a working RP2040/Pico development environment using WSL quickly.
 
+## Note:
+While this method seems to work (or did last time I tested it) I've found that I prefer using JetBrains CLion as an IDE for the Pico.  Setup for that is much easier, and it's a cleaner experience overall (no funky WSL required).  It's not free, which is a bummer, but I'd recommend doing that instead if you have any way of getting it (it's pretty reasonable compared to a Keil, etc.).
+
 ## Why, What, and How
 ### Why
 I needed to quickly get a working development environment for my RP2040/Pico work, as I imagine you do, too.  The problem is, I run Windows.  The guides avilable, both though the quickstarts and the official documentation, provide a fairly inconvenient method using either the Visual C++ build tools (and whole multi-GB Windows SDK) or MinGW.
