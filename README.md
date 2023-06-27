@@ -1,6 +1,10 @@
 # PicoWSLDevTemplate
 Go from zero to a working RP2040/Pico development environment using WSL quickly.
 
+## Update 6/2023:
+As of now, Raspberry Pi has released an official Windows installer for the Pico SDK and dev environment.  I haven't used it personally, but it's probably a better solution than this.
+More information at: https://www.raspberrypi.com/news/raspberry-pi-pico-windows-installer/
+
 ## Note:
 While this method seems to work (or did last time I tested it) I've found that I prefer using JetBrains CLion as an IDE for the Pico.  Setup for that is much easier, and it's a cleaner experience overall (no funky WSL required).  It's not free, which is a bummer, but I'd recommend doing that instead if you have any way of getting it (it's pretty reasonable compared to a Keil, etc.).
 
